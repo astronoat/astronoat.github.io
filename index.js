@@ -12,14 +12,14 @@ function closeabout(){
         $("#about_container").css("display","none");
     },800);
 }
-function showwork(){
+function showlife(){
     $("#work_container").css("display","inherit");
     $("#work_container").addClass("animated slideInRight");
     setTimeout(function(){
         $("#work_container").removeClass("animated slideInRight");
     },800);
 }
-function closework(){
+function closelife(){
     $("#work_container").addClass("animated slideOutRight");
     setTimeout(function(){
         $("#work_container").removeClass("animated slideOutRight");
