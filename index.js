@@ -13,17 +13,17 @@ function closeabout(){
     },800);
 }
 function showlife(){
-    $("#work_container").css("display","inherit");
-    $("#work_container").addClass("animated slideInRight");
+    $("#life_container").css("display","inherit");
+    $("#life_container").addClass("animated slideInRight");
     setTimeout(function(){
-        $("#work_container").removeClass("animated slideInRight");
+        $("#life_container").removeClass("animated slideInRight");
     },800);
 }
 function closelife(){
-    $("#work_container").addClass("animated slideOutRight");
+    $("#life_container").addClass("animated slideOutRight");
     setTimeout(function(){
-        $("#work_container").removeClass("animated slideOutRight");
-        $("#work_container").css("display","none");
+        $("#life_container").removeClass("animated slideOutRight");
+        $("#life_container").css("display","none");
     },800);
 }
 function showcontact(){
