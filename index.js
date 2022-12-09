@@ -12,18 +12,18 @@ function closeabout(){
         $("#about_container").css("display","none");
     },800);
 }
-function showlife(){
-    $("#life_container").css("display","inherit");
-    $("#life_container").addClass("animated slideInRight");
+function showwork(){
+    $("#work_container").css("display","inherit");
+    $("#work_container").addClass("animated slideInRight");
     setTimeout(function(){
-        $("#life_container").removeClass("animated slideInRight");
+        $("#work_container").removeClass("animated slideInRight");
     },800);
 }
-function closelife(){
-    $("#life_container").addClass("animated slideOutRight");
+function closework(){
+    $("#work_container").addClass("animated slideOutRight");
     setTimeout(function(){
-        $("#life_container").removeClass("animated slideOutRight");
-        $("#life_container").css("display","none");
+        $("#work_container").removeClass("animated slideOutRight");
+        $("#work_container").css("display","none");
     },800);
 }
 function showcontact(){
