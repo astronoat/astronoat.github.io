@@ -101,7 +101,7 @@ body {
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
 }
-#work {
+#life {
     width:10vw;
     height:10vw;
     text-align:center;
@@ -140,7 +140,7 @@ body {
     background:rgba(255,50,50,0.9);
     cursor:pointer;
 }
-#work:hover {
+#life:hover {
     background:rgba(255,50,50,0.9);
     cursor:pointer;
 }
@@ -310,7 +310,7 @@ body {
     #contact {
         display:none;
     }
-    #work {
+    #life {
         display:none;
     }
     #footer {
